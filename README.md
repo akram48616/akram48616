@@ -70,6 +70,13 @@ Backend for products, carts, orders, and payments.
 
 ---
 
+## 📊 Most Used Languages
+ 
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akram48616&layout=compact&theme=tokyonight&hide_border=true&langs_count=5&hide=html,css" alt="Most used languages"/>
+</p>
+---
+
 ## 🔗 Connect
 
 [LinkedIn](https://www.linkedin.com/in/shaik-akram-516272300/) · [LeetCode](https://leetcode.com/akram_codes/) · [GeeksforGeeks](https://www.geeksforgeeks.org/profile/akramakr7tx6/) · [Portfolio](https://akram-portfolio-ivory.vercel.app/)
