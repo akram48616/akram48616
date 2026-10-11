@@ -1,83 +1,75 @@
-# 👋 Hi, I'm Shaik Akram
+# Hi, I'm Shaik Akram
 
-### Java Backend Developer | Spring Boot | Microservices | Distributed Systems
+**Java Backend Developer | Spring Boot | Microservices**
 
-I build secure, scalable backend applications and explore distributed systems, API performance, and reliable service architecture.
+MCA graduate (CGPA 9.0/10) looking for **full-time Java backend / full-stack roles / Java Developer** in **Hyderabad,Bangalore,Mysore,Pune**. I build REST APIs and distributed backend services, and I test and containerize what I build.
 
-* 🔭 **Currently building:** [FlowForge — Distributed Workflow Orchestration Platform](https://github.com/akram48616/flowforge)
-* 🌱 **Learning:** Advanced Spring Boot, Microservices, AWS, and System Design
-* 💻 **Specializing in:** Java, Spring Boot, REST APIs, Kafka, Redis, and MySQL
-* 🤝 **Open to:** Java Backend Development and open-source collaboration
-* 🌐 **Portfolio:** [View my projects](https://akram-portfolio-ivory.vercel.app/)
-* 📫 **Contact:** [akramakrama538@gmail.com](mailto:akramakrama538@gmail.com)
-* ⚡ **Fun fact:** I enjoy solving LeetCode problems and building reliable backend systems.
+- 🎓 **Education:** MCA, VEMU Institute of Technology
+- 💼 **Looking for:** Full-time Java Backend Developer roles (fresher)
+- 🔭 **Currently building:** [FlowForge](https://github.com/akram48616/flowforge), a distributed workflow orchestration platform
+- 🌱 **Learning:** AWS, Microservices, System Design
+- 🧩 **Practice:** LeetCode, [LeetCode PROFILE_LINK_STATS: add solved count here]
+- 🌐 **Portfolio:** [akram-portfolio-ivory.vercel.app](https://akram-portfolio-ivory.vercel.app/)
+- 📫 **Contact:** [akramakrama538@gmail.com](mailto:akramakrama538@gmail.com) · [LinkedIn](https://www.linkedin.com/in/shaik-akram-516272300/)
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🔹 [FlowForge](https://github.com/akram48616/flowforge)
+### 🔹 [FlowForge](https://github.com/akram48616/flowforge): Distributed Workflow Orchestration
 
-A distributed workflow orchestration platform built with Java, Spring Boot, Apache Kafka, Redis, and MySQL. Features workflow dependency validation, distributed locking, retries, and failure recovery.
+Orchestrates dependent tasks across services, with retries and recovery when a step fails.
 
-**Tech:** Java · Spring Boot · Kafka · Redis · MySQL · Docker
+- **What it does:** workflow dependency validation, distributed locking, retries, failure recovery
+- **Result:** [ADD: e.g. "handles N concurrent workflows" / "recovers from a failed worker in X sec"]
+- **Docs:** [Architecture diagram](ADD_LINK) · [Demo / API docs](ADD_LINK)
+- **Tech:** Java · Spring Boot · Kafka · Redis · MySQL · Docker
 
 ### 🔹 [Library Management API](https://github.com/akram48616/library-api)
 
-A REST API for library operations featuring JWT authentication, role-based access control, Redis caching, and automated testing.
+Containerized REST API for library operations with secure, role-based access.
 
-**Tech:** Java · Spring Boot · Spring Security · MySQL · Redis · Docker
+- **What it does:** JWT authentication, role-based access control, Redis caching, automated tests
+- **Result:** [ADD: e.g. "Redis cut read latency from X ms to Y ms" / "N endpoints" / "X% test coverage"]
+- **Docs:** [Swagger UI / demo](ADD_LINK)
+- **Tech:** Java · Spring Boot · Spring Security · MySQL · Redis · Docker
 
 ### 🔹 [E-Commerce Backend](https://github.com/akram48616/ecommercebackend)
 
-A backend REST API supporting products, carts, orders, payments, and analytics, with Razorpay integration and secure authentication.
+Backend for products, carts, orders, and payments.
 
-**Tech:** Java · Spring Boot · Spring Security · MySQL · Redis · Razorpay
+- **What it does:** secure authentication, order and cart flow, analytics, Razorpay payment integration
+- **Result:** [ADD: e.g. "N endpoints" / "payment flow tested end to end"]
+- **Docs:** [Swagger UI / demo](ADD_LINK)
+- **Tech:** Java · Spring Boot · Spring Security · MySQL · Redis · Razorpay
 
 ---
 
-## 🛠️ Languages and Tools
+## 🛠️ Tech I Work With
+
+- **Language:** Java
+- **Frameworks:** Spring Boot, Spring Security, Spring Data JPA / Hibernate
+- **Messaging and caching:** Kafka, Redis
+- **Database:** MySQL
+- **Testing:** JUnit, Mockito
+- **Build and tools:** Maven, Docker, Git, Postman, Linux
+- **API docs:** Swagger (OpenAPI)
+
+**Currently learning:** AWS, Microservices, System Desig
 
 <p align="left">
-  <a href="https://www.java.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="42" height="42" alt="Java"/></a>
-  <a href="https://spring.io/projects/spring-boot"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" width="42" height="42" alt="Spring"/></a>
-  <a href="https://kafka.apache.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original.svg" width="42" height="42" alt="Apache Kafka"/></a>
-  <a href="https://redis.io/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" width="42" height="42" alt="Redis"/></a>
-  <a href="https://www.mysql.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="42" height="42" alt="MySQL"/></a>
-  <a href="https://www.docker.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="42" height="42" alt="Docker"/></a>
-  <a href="https://git-scm.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="42" height="42" alt="Git"/></a>
-  <a href="https://www.postman.com/"><img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="42" height="42" alt="Postman"/></a>
-  <a href="https://www.linux.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="42" height="42" alt="Linux"/></a>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="40" height="40" alt="Java"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" width="40" height="40" alt="Spring"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original.svg" width="40" height="40" alt="Kafka"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" width="40" height="40" alt="Redis"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="40" height="40" alt="MySQL"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="40" height="40" alt="Docker"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40" height="40" alt="Git"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40" height="40" alt="Linux"/>
 </p>
 
 ---
 
-## 📊 GitHub Statistics
+## 🔗 Connect
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=akram48616&show_icons=true&theme=tokyonight&hide_border=true" height="165" alt="GitHub statistics"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akram48616&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Most used languages"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=akram48616&theme=tokyonight&hide_border=true" alt="GitHub contribution streak"/>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=akram48616&theme=tokyonight&no-frame=true&margin-w=8" alt="GitHub trophies"/>
-</p>
-
----
-
-## 🔗 Connect With Me
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/shaik-akram-516272300/"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" width="35" height="35" alt="LinkedIn"/></a>
-  <a href="https://www.instagram.com/ft.shaik_akram/"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" width="35" height="35" alt="Instagram"/></a>
-  <a href="https://leetcode.com/akram_codes/"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" width="35" height="35" alt="LeetCode"/></a>
-  <a href="https://www.geeksforgeeks.org/profile/akramakr7tx6/"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" width="35" height="35" alt="GeeksforGeeks"/></a>
-</p>
-
----
-
-<p align="center"><i>Building reliable systems, one commit at a time.</i></p>
+[LinkedIn](https://www.linkedin.com/in/shaik-akram-516272300/) · [LeetCode](https://leetcode.com/akram_codes/) · [GeeksforGeeks](https://www.geeksforgeeks.org/profile/akramakr7tx6/) · [Portfolio](https://akram-portfolio-ivory.vercel.app/)
