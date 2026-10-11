@@ -69,14 +69,10 @@ Backend for products, carts, orders, and payments.
 </p>
 
 ---
-
-## 📊 GitHub Statistics
-
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=akram48616&show_icons=true&theme=tokyonight&hide_border=true" height="165" alt="GitHub statistics"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akram48616&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Most used languages"/> </p>
-
-<p align="center"> <img src="https://streak-stats.demolab.com?user=akram48616&theme=tokyonight&hide_border=true" alt="GitHub contribution streak"/> </p>
-
-<p align="center"> <img src="https://github-profile-trophy.vercel.app/?username=akram48616&theme=tokyonight&no-frame=true&margin-w=8" alt="GitHub trophies"/> </p>
+## 📊 Most Used Languages
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akram48616&layout=compact&theme=tokyonight&hide_border=true&langs_count=5&hide=html,css" alt="Most used languages"/>
+</p>
 ---
 
 ## 🔗 Connect
