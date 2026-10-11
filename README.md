@@ -8,7 +8,7 @@ MCA graduate (CGPA 9.0/10) looking for **full-time Java backend / full-stack rol
 - 💼 **Looking for:** Full-time Java Backend Developer roles (fresher)
 - 🔭 **Currently building:** [FlowForge](https://github.com/akram48616/flowforge), a distributed workflow orchestration platform
 - 🌱 **Learning:** AWS, Microservices, System Design
-- 🧩 **Practice:** LeetCode, [LeetCode PROFILE_LINK_STATS: add solved count here]
+- 🧩 **Practice:** [LeetCode](https://leetcode.com/u/akram_codes/), 190 problems solved
 - 🌐 **Portfolio:** [akram-portfolio-ivory.vercel.app](https://akram-portfolio-ivory.vercel.app/)
 - 📫 **Contact:** [akramakrama538@gmail.com](mailto:akramakrama538@gmail.com) · [LinkedIn](https://www.linkedin.com/in/shaik-akram-516272300/)
 
