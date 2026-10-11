@@ -18,33 +18,32 @@ MCA graduate (CGPA 9.0/10) looking for **full-time Java backend / full-stack rol
 
 ### 🔹 [FlowForge](https://github.com/akram48616/flowforge): Distributed Workflow Orchestration
 
-Orchestrates dependent tasks across services, with retries and recovery when a step fails.
+Microservices platform for defining and running multi-step workflows, with dependency resolution, retry with backoff, and a dead-letter queue.
 
-- **What it does:** workflow dependency validation, distributed locking, retries, failure recovery
-- **Result:** [ADD: e.g. "handles N concurrent workflows" / "recovers from a failed worker in X sec"]
-- **Docs:** [Architecture diagram](ADD_LINK) · [Demo / API docs](ADD_LINK)
-- **Tech:** Java · Spring Boot · Kafka · Redis · MySQL · Docker
+- **What it does:** cycle detection at definition time, Kafka-driven task dispatch, exponential-backoff retries, distributed locking with Redis, recovery of stuck tasks
+- **Result:** 7 services; 30 unit tests plus Testcontainers integration tests; run with multiple concurrent execution and worker instances sharing a Kafka consumer group
+- **Docs:** [Architecture diagram](https://github.com/akram48616/flowforge#architecture) · [Run it locally](https://github.com/akram48616/flowforge#running-it) · [Verified failure modes](https://github.com/akram48616/flowforge#verified-failure-modes)
+- **Tech:** Java 17 · Spring Boot · Kafka · Redis · MySQL · Eureka · Spring Cloud Gateway · Docker
 
 ### 🔹 [Library Management API](https://github.com/akram48616/library-api)
 
 Containerized REST API for library operations with secure, role-based access.
 
 - **What it does:** JWT authentication, role-based access control, Redis caching, automated tests
-- **Result:** [ADD: e.g. "Redis cut read latency from X ms to Y ms" / "N endpoints" / "X% test coverage"]
-- **Docs:** [Swagger UI / demo](ADD_LINK)
+- **Result:** Redis cache cut p95 latency on book listing from 2.90 s to 307 ms and raised throughput from 30 to 161 req/s (k6, 50 users, local Docker)
+- **Docs:** [Setup and benchmark](https://github.com/akram48616/library-api#performance-redis-caching)
 - **Tech:** Java · Spring Boot · Spring Security · MySQL · Redis · Docker
 
-### 🔹 [E-Commerce Backend](https://github.com/akram48616/ecommercebackend)
+### 🔹 [E-Commerce Backend](https://github.com/akram48616/EcommerceBackend)
 
-Backend for products, carts, orders, and payments.
+Backend for products, carts, orders, payments, and analytics.
 
-- **What it does:** secure authentication, order and cart flow, analytics, Razorpay payment integration
-- **Result:** [ADD: e.g. "N endpoints" / "payment flow tested end to end"]
-- **Docs:** [Swagger UI / demo](ADD_LINK)
-- **Tech:** Java · Spring Boot · Spring Security · MySQL · Redis · Razorpay
+- **What it does:** JWT with refresh tokens and token blacklisting, cart and order flow, Razorpay payments, Redis caching, analytics endpoints
+- **Result:** 28 documented endpoints with Swagger/OpenAPI docs
+- **Docs:** [API documentation and endpoints](https://github.com/akram48616/EcommerceBackend#-api-documentation)
+- **Tech:** Java 17 · Spring Boot 3.5 · Spring Security · MySQL · Redis · Razorpay
 
 ---
-
 ## 🛠️ Tech I Work With
 
 - **Language:** Java
