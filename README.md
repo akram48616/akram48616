@@ -10,6 +10,7 @@ MCA graduate (CGPA 9.0/10) looking for **full-time Java backend / full-stack rol
 - 🌱 **Learning:** AWS, Microservices, System Design
 - 🧩 **Practice:** [LeetCode](https://leetcode.com/u/akram_codes/), 190 problems solved
 - 🌐 **Portfolio:** [akram-portfolio-ivory.vercel.app](https://akram-portfolio-ivory.vercel.app/)
+- - 📄 **Resume:** [Shaik_Akram_Java_Backend_Developer.pdf](https://github.com/akram48616/akram48616/blob/main/Shaik_Akram_Java_Backend_Developer.pdf)
 - 📫 **Contact:** [akramakrama538@gmail.com](mailto:akramakrama538@gmail.com) · [LinkedIn](https://www.linkedin.com/in/shaik-akram-516272300/)
 
 ---
