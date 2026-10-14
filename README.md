@@ -1,11 +1,11 @@
 # Hi, I'm Shaik Akram
 
-**Java Backend Developer | Spring Boot | Microservices**
+**Java Backend Developer | Spring Boot | Kafka | Redis | Microservices**
+ 
+MCA graduate (CGPA 9.0/10) who builds REST APIs and distributed backend services, then tests, benchmarks and containerizes them. I like problems where things fail halfway (crashed workers, duplicate messages, stale caches) and the system has to recover correctly.
 
-MCA graduate (CGPA 9.0/10) looking for **full-time Java backend / full-stack roles / Java Developer** in **Hyderabad,Bangalore,Mysore,Pune**. I build REST APIs and distributed backend services, and I test and containerize what I build.
-
+- 💼 **Looking for:** Full-time Java Backend Developer / Java Developer roles (fresher) in Hyderabad, Bangalore, Mysore and Pune
 - 🎓 **Education:** MCA, VEMU Institute of Technology
-- 💼 **Looking for:** Full-time Java Backend Developer roles (fresher)
 - 🔭 **Currently building:** [FlowForge](https://github.com/akram48616/flowforge), a distributed workflow orchestration platform
 - 🌱 **Learning:** AWS, Microservices, System Design
 - 🧩 **Practice:** [LeetCode](https://leetcode.com/u/akram_codes/), 190 problems solved
@@ -19,43 +19,50 @@ MCA graduate (CGPA 9.0/10) looking for **full-time Java backend / full-stack rol
 
 ### 🔹 [FlowForge](https://github.com/akram48616/flowforge): Distributed Workflow Orchestration
 
-Microservices platform for defining and running multi-step workflows, with dependency resolution, retry with backoff, and a dead-letter queue.
-
-- **What it does:** cycle detection at definition time, Kafka-driven task dispatch, exponential-backoff retries, distributed locking with Redis, recovery of stuck tasks
-- **Result:** 7 services; 30 unit tests plus Testcontainers integration tests; run with multiple concurrent execution and worker instances sharing a Kafka consumer group
-- **Docs:** [Architecture diagram](https://github.com/akram48616/flowforge#architecture) · [Run it locally](https://github.com/akram48616/flowforge#running-it) · [Verified failure modes](https://github.com/akram48616/flowforge#verified-failure-modes)
-- **Tech:** Java 17 · Spring Boot · Kafka · Redis · MySQL · Eureka · Spring Cloud Gateway · Docker
-
+A microservices platform for defining and running multi-step workflows with dependency resolution, retries and failure recovery.
+ 
+- **Cycle detection:** DFS-based check rejects circular workflow definitions at creation time
+- **No duplicate execution:** Redis distributed lock (`SET NX` + Lua token-verified unlock) stops concurrent workers from running the same task
+- **Fault tolerance:** exponential-backoff retries, dead-letter queue routing, and a scheduler that re-queues tasks stuck in `DISPATCHED`
+- **Failure-tested:** killed workers and interrupted Kafka mid-execution in Docker, then verified recovery with no duplicate completion
+- **Scaling and tests:** Kafka consumer groups for horizontal scaling, 30 unit tests and 2 Testcontainers integration tests
+- **Docs:** [Architecture](https://github.com/akram48616/flowforge#architecture) · [Run locally](https://github.com/akram48616/flowforge#running-it) · [Verified failure modes](https://github.com/akram48616/flowforge#verified-failure-modes)
+- **Tech:** Java 17 · Spring Boot · Kafka · Redis · MySQL · Eureka · Spring Cloud Gateway · Resilience4j · Docker · Testcontainers
 ### 🔹 [Library Management API](https://github.com/akram48616/library-api)
 
 Containerized REST API for library operations with secure, role-based access.
 
-- **What it does:** JWT authentication, role-based access control, Redis caching, automated tests
-- **Result:** Redis cache cut p95 latency on book listing from 2.90 s to 307 ms and raised throughput from 30 to 161 req/s (k6, 50 users, local Docker)
+ 
+- **Security:** JWT access and refresh tokens with rotation, logout blacklisting, `@PreAuthorize` role checks
+- **Performance:** Redis caching improved the book-listing endpoint from ~30 to ~160 req/s and p95 latency from 2.9 s to under 0.4 s (k6, 50 virtual users, 60 s, local Docker)
+- **Quality:** 30+ tests with JUnit 5, Mockito, MockMvc and DataJpaTest; Docker Compose setup
 - **Docs:** [Setup and benchmark](https://github.com/akram48616/library-api#performance-redis-caching)
-- **Tech:** Java · Spring Boot · Spring Security · MySQL · Redis · Docker
+- **Tech:** Java 17 · Spring Boot · Spring Security · MySQL · Redis · Docker · Swagger/OpenAPI
 
 ### 🔹 [E-Commerce Backend](https://github.com/akram48616/EcommerceBackend)
 
-Backend for products, carts, orders, payments, and analytics.
-
-- **What it does:** JWT with refresh tokens and token blacklisting, cart and order flow, Razorpay payments, Redis caching, analytics endpoints
-- **Result:** 28 documented endpoints with Swagger/OpenAPI docs
-- **Docs:** [API documentation and endpoints](https://github.com/akram48616/EcommerceBackend#-api-documentation)
+Backend for products, carts, orders, payments and analytics.
+ 
+- **Payments:** Razorpay order creation, payment verification, transaction tracking and webhook handling
+- **Auth:** JWT with refresh-token rotation, logout blacklisting, BCrypt password hashing
+- **Caching and reports:** Redis caching with eviction on updates; sales analytics, top-product and low-stock reports; async email notifications
+- **Docs:** [API documentation](https://github.com/akram48616/EcommerceBackend#-api-documentation) (Swagger/OpenAPI)
 - **Tech:** Java 17 · Spring Boot 3.5 · Spring Security · MySQL · Redis · Razorpay
-
 ---
 ## 🛠️ Tech I Work With
 
-- **Language:** Java
-- **Frameworks:** Spring Boot, Spring Security, Spring Data JPA / Hibernate
-- **Messaging and caching:** Kafka, Redis
-- **Database:** MySQL
-- **Testing:** JUnit, Mockito
-- **Build and tools:** Maven, Docker, Git, Postman, Linux
-- **API docs:** Swagger (OpenAPI)
-
-**Currently learning:** AWS, Microservices, System Desig
+ 
+| Area | Technologies |
+|---|---|
+| **Language** | Java 17, SQL |
+| **Backend** | Spring Boot, Spring MVC, Spring Security, Spring Data JPA, Hibernate, REST APIs, JWT, RBAC |
+| **Microservices** | Spring Cloud, Eureka, Spring Cloud Gateway, Resilience4j |
+| **Messaging** | Apache Kafka (consumer groups, dead-letter queues, retry and recovery) |
+| **Data and caching** | MySQL, Redis |
+| **Testing** | JUnit 5, Mockito, MockMvc, Testcontainers, k6 |
+| **Tools and DevOps** | Docker, Docker Compose, Git, Maven, Postman, Linux, Swagger/OpenAPI |
+ 
+---
 
 <p align="left">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="40" height="40" alt="Java"/>
