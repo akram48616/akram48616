@@ -12,6 +12,12 @@ MCA graduate (CGPA 9.0/10) who builds REST APIs and distributed backend services
 - 🌐 **Portfolio:** [akram-portfolio-ivory.vercel.app](https://akram-portfolio-ivory.vercel.app/)
 - 📄 **Know about my experiences:** [Shaik_Akram_Java_Backend_Developer.pdf](https://github.com/akram48616/akram48616/blob/main/Shaik_Akram_Java_Backend_Developer.pdf)
 - 📫 **Contact:** [akramakrama538@gmail.com](mailto:akramakrama538@gmail.com) · [LinkedIn](https://www.linkedin.com/in/shaik-akram-516272300/)
+- ## 🚀 Live Demo
+**Swagger UI:** https://library-api-xe4d.onrender.com/swagger-ui.html
+
+> Hosted on Render. If the service is asleep, the first load can take up to a minute.
+
+**Demo login:** `[admin]` / `[admin123]`
 
 ---
 
@@ -28,7 +34,7 @@ A microservices platform for defining and running multi-step workflows with depe
 - **Scaling and tests:** Kafka consumer groups for horizontal scaling, 30 unit tests and 2 Testcontainers integration tests
 - **Docs:** [Architecture](https://github.com/akram48616/flowforge#architecture) · [Run locally](https://github.com/akram48616/flowforge#running-it) · [Verified failure modes](https://github.com/akram48616/flowforge#verified-failure-modes)
 - **Tech:** Java 17 · Spring Boot · Kafka · Redis · MySQL · Eureka · Spring Cloud Gateway · Resilience4j · Docker · Testcontainers
-### 🔹 [Library Management API](https://github.com/akram48616/library-api)
+### 🔹 Library Management System: [Repo](https://github.com/akram48616/library-api) | [Live Demo](https://library-api-xe4d.onrender.com/swagger-ui.html)
 
 Containerized REST API for library operations with secure, role-based access.
 
